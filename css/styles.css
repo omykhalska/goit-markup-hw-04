@@ -327,6 +327,26 @@ p {
   font-weight: 500;
 }
 
+/* ========== CLIENTS ========== */
+.clients-list{
+justify-content: space-between;
+}
+
+.clients-list-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.clients-list-icon {
+  width: 106px;
+  height: 60px;
+}
+
 /* ========== PORTFOLIO ==========*/
 .gallery-btn-list {
   display: flex;
