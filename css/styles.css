@@ -312,9 +312,11 @@ p {
 }
 
 .icon-container {
-  padding: 25px 100px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  /* text-align: center; */
   background-color: var(--light-bg-color);
 }
 
@@ -324,7 +326,6 @@ p {
 
 .features-title {
   margin-bottom: 10px;
-
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
